@@ -1,0 +1,2 @@
+-- This tutorial introduces JOIN which allows you to use data from two or more tables. 
+-- The tables contain all matches and goals from UEFA EURO 2012 Football Championship in Poland and Ukraine.
