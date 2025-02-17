@@ -64,8 +64,13 @@ WHERE continent = 'Europe'
 
 
 
---Q7. 7.
+--Q7.
 --Find the largest country (by area) in each continent, show the continent, the name and the area:
 
 --The above example is known as a correlated or synchronized sub-query.
 
+SELECT continent, name, population FROM world x
+  WHERE population >= ALL
+    (SELECT population FROM world y
+        WHERE y.continent=x.continent
+          AND population>0)
