@@ -61,3 +61,11 @@ SELECT name,
 		) AS population_percent_as_to_germany
 FROM world
 WHERE continent = 'Europe'
+
+
+
+--Q7. 7.
+--Find the largest country (by area) in each continent, show the continent, the name and the area:
+
+--The above example is known as a correlated or synchronized sub-query.
+
